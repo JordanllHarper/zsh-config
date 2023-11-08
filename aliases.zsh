@@ -1,2 +1,2 @@
-alias nvim-config='cd ~/.config/nvim'
-alias notes='cd ~/notes'
+alias nvimcfg='nvim ~/.config/nvim/'
+alias ndir='nvim ~/notes/'

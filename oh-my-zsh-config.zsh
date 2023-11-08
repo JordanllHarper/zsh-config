@@ -3,13 +3,18 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+# Hombrew path
 export BREW="/opt/homebrew/bin"
+
+# ls config
+export CLICOLOR=1
+
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="amuse"
+ZSH_THEME="Simonoff"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -33,7 +38,7 @@ HYPHEN_INSENSITIVE="true"
 # Uncomment the following line to disable auto-setting terminal title.
 # DISABLE_AUTO_TITLE="true"
 
-# Uncomment the following line to enable command auto-correction.
+# Autocorrection
  ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
@@ -63,7 +68,7 @@ HYPHEN_INSENSITIVE="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git gradle macos pip ripgrep rust thefuck adb brew zsh-interactive-cd)
+plugins=(git gradle macos pip ripgrep rust thefuck adb brew zsh-interactive-cd tmux)
 
 source $ZSH/oh-my-zsh.sh
 
