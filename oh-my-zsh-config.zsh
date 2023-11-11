@@ -68,13 +68,11 @@ HYPHEN_INSENSITIVE="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git gradle macos pip ripgrep rust thefuck adb brew zsh-interactive-cd tmux)
+plugins=(git macos rust thefuck adb brew zsh-interactive-cd tmux)
 
 source $ZSH/oh-my-zsh.sh
 
-
 source $ZSH/plugins/zsh-interactive-cd
-
 
 
 # User configuration
